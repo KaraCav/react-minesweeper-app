@@ -1,0 +1,17 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color:blue;
+    height: 10vh;
+    padding: 10px;
+    border: 1px solid gray;
+    .Counter {
+        margin: 1em;
+        padding: 0 1em;
+        border: 1px solid white;
+    }
+    .NewGame {
+        margin: 1em;
+    }
+}
