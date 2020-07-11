@@ -1,17 +1,7 @@
-.Header {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    color:blue;
-    height: 10vh;
-    padding: 10px;
-    border: 1px solid gray;
-    .Counter {
-        margin: 1em;
-        padding: 0 1em;
-        border: 1px solid white;
-    }
-    .NewGame {
-        margin: 1em;
-    }
+.GameBoard {
+    background-color: #c3c3c3;
+    min-height: 30vh;
+    padding: 16px;
+    border-right: 2px solid #999;
+    border-bottom: 2px solid #999;
 }
