@@ -1,18 +1,38 @@
+@import "../../styles/styles.scss";
+
 .App {
-    text-align: center;
-    font-family: monospace;
+  @include borders(white, #999);
+  background: #c2c2c2;
+  padding: 16px;
+  max-width: 500px;
+}
 
-    
-    h1 {
-        width: 100vw;
-        font-size: 22px;
-        color: purple;
-    }
+.Header {
+  @include borders(#7b7b7b, white);
+  align-items: center;
+  background: #c0c0c0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+}
 
-    .GameBoard {
-        margin: auto;
-        background: #c2c2c2;
-        width: 400px;
-    }
+.Body {
+  @include borders(#7b7b7b, white);
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  margin-top: 16px;
+  min-height: 400px;
+}
 
+.Face {
+  @include borders;
+  @include buttons;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 35px;
+  height: 52px;
+  justify-content: center;
+  width: 52px;
 }
