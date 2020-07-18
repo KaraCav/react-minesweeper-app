@@ -1,6 +1,7 @@
 import React from "react";
 import { CellState, CellValue } from "../../types/types";
 
+import "./Button.scss";
 
 interface ButtonProps {
   col: number;
