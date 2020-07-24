@@ -2,7 +2,7 @@
 
 .App {
   @include borders(white, #999);
-  background: #c2c2c2;
+  background: #914ca9;
   padding: 16px;
   max-width: 500px;
 }
@@ -23,6 +23,9 @@
   grid-template-rows: repeat(9, 1fr);
   margin-top: 16px;
   min-height: 400px;
+  .Button {
+    background-color: #c0c0c0;
+  }
 }
 
 .Face {
